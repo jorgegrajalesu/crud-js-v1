@@ -5,7 +5,9 @@ const state = {
 }
 
 const loadNextPage = async () => {
-    throw new Error ('No implementado');
+    // throw new Error ('No implementado');
+    // llamar la función loadNextPage
+    await loadUsersByPage(state.currentPage+1);
 }
 const loadPreviousPage = async () => {
     throw new Error ('No implementado');
