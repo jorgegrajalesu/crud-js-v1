@@ -9,8 +9,7 @@
     "preview": "vite preview",
     "server": "json-server server/db.json --port 3001"
   },
-  "devDependencies": {
-    "concurrently": "^8.2.0",
+  "devDependencies": {    
     "json-server": "^0.17.3",
     "vite": "^4.4.0"
   }
