@@ -4,20 +4,22 @@ const state = {
     users: [],
 }
 
-const eloadNextPag = async () => {
+const loadNextPage = async() => {
     // throw new Error ('No implementado');
     // llamar la función loadUsersByPage
-    await loadUsersByPage(state.currentPage+1);
+    await loadUsersByPage(state.currentPage + 1);
+   
+    
 }
-const loadPreviousPage = async () => {
+const loadPreviousPage = async() => {
     throw new Error ('No implementado');
 }
 
 
-const onUserChanged = async () => {
+const onUserChanged = async() => {
     throw new Error ('No implementado');
 }
-const reloadPage = async () => {
+const reloadPage = async() => {
     throw new Error ('No implementado');
 }
 
